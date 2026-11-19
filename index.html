@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1> Calculator </h1>
+   <div class="container">
+    
+        <div id="screen"  readonly></div>
+        <div class="btn">
+            <button onclick="clearDisplay(screen)" >AC</button>
+            <button onclick="deleteLast(screen)" >C</button>
+            <button onclick="addkey('**')" >**</button>
+            <button onclick="addkey('/')">/</button>
+            <button onclick="addkey(7)">7</button>
+            <button onclick="addkey(8)">8</button>
+            <button onclick="addkey(9)">9</button>
+            <button onclick="addkey('*')">*</button>
+            <button onclick="addkey(6)">6</button>
+            <button onclick="addkey(5)">5</button>
+            <button onclick="addkey(4)">4</button>
+            <button onclick="addkey('+')">+</button>
+            <button onclick="addkey(3)">3</button>
+            <button onclick="addkey(2)">2</button>
+            <button onclick="addkey(1)">1</button>
+            <button onclick="addkey('-')">-</button>
+            <button onclick="addkey('%')">%</button>
+            <button onclick="addkey(0)">0</button>
+            <button onclick="addkey('.')">.</button>
+            <button onclick="calculate(screen)">=</button>
+        </div>
+    </div>
+
+</body>
+</html>
